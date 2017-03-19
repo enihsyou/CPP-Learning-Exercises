@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cassert>
 #include <cmath>
+
 namespace {
 class Rectangle {
  public:

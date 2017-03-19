@@ -1,16 +1,18 @@
+#define _USE_MATH_DEFINES
 #include <iostream>
-#include <cmath>
+
 namespace {
 class Circle {
- public:
+public:
   explicit Circle(const double radius)
-      : radius_{radius} {}
+    : radius_{radius} {}
+
   double getArea() const {
     return radius_ * radius_ * M_PI;
   }
 
   double radius() const { return radius_; }
- private:
+private:
   double radius_;
 };
 }// namespace
